@@ -26,3 +26,7 @@ MARCELO ANDREJOV JÚNIOR
 - Funcionalidade 5: E-commerce
 - Funcionalidade 6: Google maps (localidade)
 - Funcionalidade 7: Blog ou receitas (novidades)
+
+Revisão de Java
+JRE- maquina virtual do java
+JDK- java development kit
