@@ -1,23 +1,9 @@
 # Fábrica de software 2025/1
 
+## Nome da Equipe
 MARCELO ANDREJOV JÚNIOR
 
-##Propostas de Projeto
-
--Sistema para mecanica
- - Funcionalidade 1: cadastrar dados do cliente
- - Funcionalidade 2: cadastrar veiculos
- - Funcionalidade 3: cadastrar peças
- - Funcionalidade 4: serviços a oferecer
- - Funcionalidade 5: entrada e saída de rendimentos
-
-
-
--Sistema para loja de games
- - Funcionalidade 1: cadastrar dados do cliente
- - Funcionalidade 2: cadastrar jogos
- - Funcionalidade 3: sistema de aluguel/troca de jogos 
-
+## Propostas de Projeto
 -Sistema para padaria
 - Funcionalidade 1: cadastrar dados do cliente
 - Funcionalidade 2: cadastrar produtos
@@ -27,6 +13,12 @@ MARCELO ANDREJOV JÚNIOR
 - Funcionalidade 6: Google maps (localidade)
 - Funcionalidade 7: Blog ou receitas (novidades)
 
-Revisão de Java
-JRE- maquina virtual do java
-JDK- java development kit
+## Livro Eng Software Moderna
+[Eng. Soft Moderna - Requisitos](https://engsoftmoderna.info/cap3.html)
+
+## Histórias de Usuário
+- Como um atendente eu gostaria de cadastrar dados do cliente como: nome, endereço, telefone e e-mail
+- Como atendente eu gostaria de registrar todos os produtos que entram e saem do meu estabelecimento
+- Como atendente eu gostaria de projetar um sistema de carrinho para o cliente se sentir mais a vontade na hora de realizar suas compras
+- Como atendente eu gostaria de registrar minha entra e saída de rendimentos
+- Como atendente gostaria de criar um Blog de receitas e novidades da minha padaria
