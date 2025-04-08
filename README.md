@@ -22,3 +22,7 @@ MARCELO ANDREJOV JÚNIOR
 - Como atendente eu gostaria de projetar um sistema de carrinho para o cliente se sentir mais a vontade na hora de realizar suas compras
 - Como atendente eu gostaria de registrar minha entra e saída de rendimentos
 - Como atendente gostaria de criar um Blog de receitas e novidades da minha padaria
+
+# Design Patterns
+
+https://refactoring.guru/design-patterns

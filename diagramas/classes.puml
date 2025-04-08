@@ -1,0 +1,73 @@
+@startuml
+package br.univille.revisao.entity {
+    class Usuario {
+        - long id
+        - String nome
+        - String tipo // "Cliente" ou "Atendente"
+        + long getId()
+        + void setId(long id)
+        + String getNome()
+        + void setNome(String nome)
+        + String getTipo()
+        + void setTipo(String tipo)
+    }
+
+    class Paciente {
+        - int idade
+        - String endereco
+        - String numeroEmergencia
+        - List<Lembrete> lembretes
+        + int getIdade()
+        + void setIdade(int idade)
+        + String getEndereco()
+        + void setEndereco(String endereco)
+        + String getNumeroEmergencia()
+        + void setNumeroEmergencia(String numeroEmergencia)
+        + List<Lembrete> getLembretes()
+        + void setLembretes(List<Lembrete> lembretes)
+    }
+
+    class Cuidador {
+        - List<Cliente> Cliente
+        + List<Cliente> getClientes()
+        + void setClientes(List<Cliente> cliente)
+    }
+
+    class Lembrete {
+        - long id
+        - String descricao
+        - LocalDateTime dataHora
+        + long getId()
+        + void setId(long id)
+        + String getDescricao()
+        + void setDescricao(String descricao)
+        + LocalDateTime getDataHora()
+        + void setDataHora(LocalDateTime dataHora)
+    }
+
+    class EstadoEmocional {
+        - long id
+        - String humor // Exemplo: "Feliz", "Triste", "Ansioso"
+        + long getId()
+        + void setId(long id)
+        + String getHumor()
+        + void setHumor(String humor)
+    }
+
+    class Interação com o cliente {
+        - long id
+        - String tipo // Exemplo: "Boa tarde,o que posso ajudar?", "Mais alguma coisa?"
+        - String descricao
+        + long getId()
+        + void setId(long id)
+        + String getTipo()
+        + void setTipo(String tipo)
+        + String getDescricao()
+        + void setDescricao(String descricao)
+    }
+
+    Usuario <|-- Cliente
+    Usuario <|-- Atendente
+    Atendente "1" *-- "0..*" Lembrete
+}
+@enduml
